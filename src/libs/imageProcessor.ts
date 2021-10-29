@@ -20,7 +20,7 @@ function defineSize(sizes: any, { width, height }: Metadata, preferredSize?: str
 }
 
 function resizeImage(image: Sharp, size: number): Sharp {
-    console.log(`Used size ${size}`);
+    // console.log(`Used size ${size}`);
 
     return image.resize(size, size);
 }
